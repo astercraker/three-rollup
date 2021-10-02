@@ -1,0 +1,40 @@
+html{
+    background: #BED7FF;
+    background: #BED7FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a9cafc, #d1e2fc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a9cafc, #d1e2fc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.navbar{
+    background: transparent;
+}
+.navbar-burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgba(0,0,0,.05);
+}
+.navbar-burger:hover {
+    background-color: rgba(0,0,0,.1);
+}
+.is-darker{
+    background: #2E373D;
+    color: white;
+}
+.is-darker:hover{
+    color: whitesmoke;
+    background: -webkit-linear-gradient(to right, #2E373D, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2E373D, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    outline: none;
+    height: calc(50% - 10px);
+    width: calc(50% - 10px);
+    margin: 10px;
+}
